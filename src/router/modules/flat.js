@@ -116,6 +116,12 @@ const flatRouter = {
           ]
         }
       ]
+    },
+    {
+      path: 'ai-chat',
+      component: () => import('@/views/flat/ai-chat/index'),
+      name: 'AiChat',
+      meta: { title: '智能问述' }
     }
   ]
 }
